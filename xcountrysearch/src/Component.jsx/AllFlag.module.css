@@ -1,0 +1,38 @@
+.navBar{
+    height:10rem;
+    width: 100%;
+    /* background-color: aqua; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:beige;
+    padding:10px;
+    }
+.searchbar{
+margin:50px;
+padding:10px;
+width:50%;
+text-align: center;
+border-radius: 10px;
+
+}
+
+.Container{
+padding:20px;
+}
+.countriesName{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;     
+
+}
+
+.text{
+text-align: center;
+
+}
+
+.img{
+overflow:hidden;
+/* border: 2px solid black ;; */
+}

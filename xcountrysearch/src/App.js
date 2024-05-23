@@ -1,12 +1,12 @@
-import XCountriesSearch from "./XCountriesSearch";
-import "./App.css";
+import React from 'react';
+import AllFlags from './Component.jsx/Allflag';
 
-function App() {
-  return (
-    <>
-      <XCountriesSearch />
-    </>
-  );
-}
+const App = () => {
+	return (
+		<>
+			<AllFlags />
+		</>
+	);
+};
 
 export default App;
